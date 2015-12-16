@@ -43,7 +43,7 @@ block="server {
         fastcgi_pass unix:/var/run/php5-fpm.sock;
         fastcgi_index app.php;
         include fastcgi_params;
-        fastcgi_param SCRIPT_FILENAME "\${document_root}/app.php";
+        fastcgi_param SCRIPT_FILENAME \"\${document_root}/app.php\";
         fastcgi_intercept_errors off;
         fastcgi_buffer_size 16k;
         fastcgi_buffers 4 16k;
