@@ -14,7 +14,7 @@ folders:
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
+    - map: processmaker.local
       to: /home/vagrant/Code/Laravel/public
 
 databases:
