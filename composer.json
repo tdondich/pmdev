@@ -1,6 +1,6 @@
 {
-    "name": "laravel/homestead",
-    "description": "A virtual machine for web artisans.",
+    "name": "tdondich/pmdev",
+    "description": "Development Environment for ProcessMaker",
     "require": {
         "php": ">=5.5",
         "symfony/console": "~2.0|~3.0",
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylorotwell@gmail.com"
+            "name": "Taylor Dondich",
+            "email": "taylor@dondich.com"
         }
     ],
     "autoload": {
