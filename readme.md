@@ -1,5 +1,5 @@
-# Laravel Homestead
+# ProcessMaker Development Environment
 
-The official Laravel local development environment.
+Mirror/Forked from the Laravel homestead project (it's darn good!)
 
-Official documentation [is located here](http://laravel.com/docs/5.1/homestead).
+Official documentation [is located here](http://laravel.com/docs/5.1/homestead).  However, here's the summary
