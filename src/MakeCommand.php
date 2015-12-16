@@ -109,7 +109,7 @@ class MakeCommand extends Command
 
         // Fix path to the public folder (sites: to:)
         $yaml = str_replace(
-            $this->defaultName.'"/Laravel/public', $this->defaultName.'/public"', $yaml
+            $this->defaultName.'"/Laravel/public', $this->defaultName.'/workflow/public_html/"', $yaml
         );
 
         file_put_contents($this->basePath.'/Homestead.yaml', $yaml);
